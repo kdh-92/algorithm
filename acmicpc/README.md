@@ -5,4 +5,4 @@
 
 | 문제 | 풀이 |
 | ------ | ------ |
-| [10828](https://www.acmicpc.net/problem/10828) | [STACK](https://github.com/kdh-92/algorithm/blob/main/acmicpc/Data\ Structures/10828.java) |
+| [10828](https://www.acmicpc.net/problem/10828) | [STACK](https://github.com/kdh-92/algorithm/blob/main/acmicpc/Data%20Structures/10828.java) |
