@@ -1,4 +1,6 @@
-/* 
+package acmicpc.DataStructures;
+
+/*
 
 "back" 명령어 구현 방법 관련
 
@@ -13,7 +15,7 @@ LinkedList<Integer> queue = new LinkedList<Integer>();
 import java.util.*;
 import java.io.*;
 
-class Main {
+class P10845 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Queue<Integer> queue = new LinkedList<Integer>();

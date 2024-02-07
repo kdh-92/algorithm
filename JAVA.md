@@ -133,3 +133,34 @@ public class Main {
     }
 }
 ```
+
+### String <-> 숫자형 (int, double, float, long, short)
+``` java
+// String → 숫자형(int, double, float, long, short)
+
+String sNum = "1234";
+
+/*
+	방법 1 : 자료형 변수 이름 = 자료형.parse자료형(변수);
+	방법 2 : 자료형 변수 이름 = 자료형.valueOf(변수);
+*/
+
+// ex
+Long l = Long.parseLong(sNum); // or Long.valueOf(sNum);
+
+---
+
+// 숫자형 -> String
+
+int i = 1234;
+
+/*
+	방법 1 : String 변수 이름 = String.valueOf(숫자형 변수);
+	방법 2 : String 변수 이름 = 숫자형.toString(숫자형 변수);
+*/
+
+// ex
+float f = (float) 1.23;
+String f1 = String.valueOf(f);
+String f2 = Float.toString(f);
+```

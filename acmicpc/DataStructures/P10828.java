@@ -1,4 +1,4 @@
-/*
+package acmicpc.DataStructures;/*
 
 - url: https://www.acmicpc.net/source/11772249 문제 풀이
 - BufferedWriter 사용
@@ -7,7 +7,7 @@
 */
 
 import java.io.*;
-class Main{
+class P10828 {
     // 출력을 바꿔서 속도 비교
     public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
